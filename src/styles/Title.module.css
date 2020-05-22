@@ -1,0 +1,15 @@
+.title {
+  width: 90%;
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+/* Media Queries */
+@media (min-width: 1000px) {
+  .title {
+    max-width: 800px;
+  }
+}
